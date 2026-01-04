@@ -5,19 +5,14 @@ Overview
     The pipeline is fully reproducible, and demonstrates real-world ETL + data quality gate patterns.
 
 Open-Meteo API
-      |
       v
 Extract (JSON)
-      |
       v
 Transform (Cleaned Parquet)
-      |
       v
 Data Quality Validation (GX Core)
-      |
       v
 SQLite Warehouse (fact_hourly_weather)
-      |
       v
 Analytics Output (CSV reports)
 
